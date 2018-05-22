@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>ig</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="21.3192187%" y1="90.9614844%" x2="78.6816406%" y2="9.039375%" id="linearGradient-1">
+            <stop stop-color="#FFB900" offset="0%"></stop>
+            <stop stop-color="#9100EB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="swift-of-pen-home-copy" transform="translate(-1256.000000, -61.000000)">
+            <g id="Group-3" transform="translate(1094.000000, 61.000000)">
+                <g id="ig" transform="translate(162.000000, 0.000000)">
+                    <g id="Layer_1">
+                        <circle id="Oval" fill="url(#linearGradient-1)" cx="24" cy="24" r="24"></circle>
+                        <g id="Group" transform="translate(9.000000, 9.000000)" fill="#FFFFFF">
+                            <path d="M21.874875,30 L8.125125,30 C3.645,30 0,26.355375 0,21.874875 L0,8.125125 C0,3.644625 3.645,0 8.125125,0 L21.874875,0 C26.355375,0 30,3.644625 30,8.125125 L30,21.87525 C30,26.355375 26.355375,30 21.874875,30 Z M8.125125,2.500125 C5.0235,2.500125 2.500125,5.0235 2.500125,8.125125 L2.500125,21.87525 C2.500125,24.976875 5.0235,27.50025 8.125125,27.50025 L21.874875,27.50025 C24.9765,27.50025 27.499875,24.976875 27.499875,21.87525 L27.499875,8.125125 C27.499875,5.0235 24.9765,2.500125 21.874875,2.500125 L8.125125,2.500125 Z" id="Shape"></path>
+                            <path d="M15,22.5 C10.8645,22.5 7.5,19.135125 7.5,15 C7.5,10.864125 10.8645,7.5 15,7.5 C19.1355,7.5 22.5,10.864125 22.5,15 C22.5,19.135125 19.1355,22.5 15,22.5 Z M15,10.000125 C12.243,10.000125 10.000125,12.243 10.000125,15 C10.000125,17.757375 12.243,19.999875 15,19.999875 C17.757,19.999875 19.999875,17.757375 19.999875,15 C19.999875,12.243 17.757375,10.000125 15,10.000125 Z" id="Shape"></path>
+                            <circle id="Oval" cx="22.96875" cy="7.03125" r="1.718625"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
