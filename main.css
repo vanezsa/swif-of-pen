@@ -65,7 +65,7 @@ a, a:hover {
   font-size: 36px;
   letter-spacing: 1.69px; }
 
-.text-green {
+.text-green, .text-green:hover {
   color: #41615F;
   font-weight: 400; }
 

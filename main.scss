@@ -88,7 +88,7 @@ a, a:hover {
     font-size: 36px;
     letter-spacing: 1.69px;
 } 
-.text-green {color: $clr-green; font-weight: 400;}
+.text-green, .text-green:hover {color: $clr-green; font-weight: 400;}
 
 .btn.btn-primary,
 .btn.btn-primary:hover,
