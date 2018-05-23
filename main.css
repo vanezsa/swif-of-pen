@@ -89,7 +89,8 @@ a, a:hover {
   font-weight: 700;
   font-size: 17px;
   height: 64px;
-  letter-spacing: -0.3px; }
+  letter-spacing: -0.3px;
+  white-space: pre-wrap; }
 
 .card {
   background-color: #F5E3DB;
