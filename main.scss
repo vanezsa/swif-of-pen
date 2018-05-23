@@ -27,6 +27,7 @@ body {
     @extend %text-shared;
     background-image: url('img/body-bg-gradient.png');
     background-repeat: no-repeat;
+    position: relative;
     background-position: center center;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -36,6 +37,11 @@ body {
     min-height: 100%;
 }
 
+.c-fix {
+    background-color: transparent;
+    height: 280px;
+}
+
 a, a:hover {
     @extend %text-shared;
     color: $clr-link;
@@ -43,7 +49,7 @@ a, a:hover {
 }
 
 .navbar { padding: 0px;}
-.navbar-nav, .c-padding-0 {padding-top: 50px;}
+.navbar-nav {padding-top: 50px;}
 .btn-menu.col-1 { padding-top: 55px;}
 
 %text-quote-shared {
@@ -73,6 +79,7 @@ a, a:hover {
     font-family: $font-stack-2;
     font-weight: 400;
     letter-spacing: 2.44px;
+    line-height: 52px;
 }
 
 .text-title-lg { @extend %text-title-shared;}
@@ -81,6 +88,7 @@ a, a:hover {
     @extend %text-title-shared;
     font-size: 35px;
     letter-spacing: 0.73px;
+    line-height: 35px;
 }
 
 .text-title-md-2 {
@@ -119,10 +127,14 @@ a, a:hover {
 }
 
 .c-margin-0 {margin-top: -4px;}
+.c-margin-1 {margin-top: 48px;}
+.c-margin-3 {margin-top: 70px;}
+.c-margin-4 {margin-top: 90px;}
 /**** FLYOUT MENU ****/
 body {
     position: relative;
-    overflow-x: hidden; }
+    overflow-x: hidden;
+}
 
 html {
     height: 100%; }
@@ -425,19 +437,35 @@ background-color: #35acdf;
 
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199px) {
-
+    .c-margin-1 {margin-top: 60px;}
+    .c-margin-3 {margin-top: 130px;}
+    .c-fix {height: 250px;}
 }
 
 @media (max-width: 991px) {
+    .c-padding-1 {padding-left: 30px;}
+    .c-text-ctr {text-align: center;}
+    .c-padding-2 {padding-top: 20px;}
+    .c-margin-3 {margin-top: 180px;}
+    .c-fix {height: 240px;}
 
 }
 
 @media (max-width: 767px) {
-    .navbar-nav {padding-left: 20px;}
+    //.navbar-nav {padding-left: 20px;}
+    .c-hide {display: none;}
+    .c-padding-0 {padding-left: 20px;}
+    .c-padding-1 {padding-left: 0px;}
+    .c-margin-1 {margin-top: 10px;}
+    .c-margin-2 {margin-top: 80px;}
+    .c-margin-3 {margin-top: 20px;}
+    .c-margin-4 {margin-top: 70px;}
+    .c-fix {height: 220px;}
 }
 
-@media (max-width: 542px) {
-
+@media (max-width: 576px) {
+    .text-title-lg {font-size: 45px;}
+    c-fix {height: 200px;}
 }
 
 @media screen and (max-height: 450px) {
@@ -449,6 +477,12 @@ background-color: #35acdf;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 404px) {
+    .c-display {display: block;}
+    .pl-4 {padding-left: 0rem!important;}
+    .c-fix { height: 170px;}
+}
 
+@media (max-width: 320px) {
+    .c-fix {height: 150px;}
 }
